@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Employee</title>
+</head>
+<body>
+	<div style="padding-left: 100px; font-family: monospace;">
+		<h2>Create Employee record</h2>
+		<form action="rest/employees" method="POST">
+			<div style="width: 300px; text-align: left;">
+				<div style="padding: 10px;">
+					Employee ID: <input name="id" />
+				</div>
+				<div style="padding: 10px;">
+					Employee Name: <input name="empname" />
+				</div>
+				<div style="padding: 10px;">
+					Employee Gender: <input name="empgender" />
+				</div>
+				<div style="padding: 10px;">
+					Employee Department: <input name="empdepartment" />
+				</div>
+				<div style="padding: 10px;">
+					Employee Date of Joining: <input name="empdoj" />
+				</div>
+				<div style="padding: 10px;">
+					Employee password: <input name="empPassword" type="password" />
+				</div>
+				<div style="padding: 10px; text-align: center">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
